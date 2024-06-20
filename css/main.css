@@ -285,6 +285,21 @@ li a:hover {
     margin-top: 0px;
 }
 
+.imageArea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+    width: 50%;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 #lessonFont {
     font-size: 100px;
 }
