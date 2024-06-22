@@ -34,7 +34,7 @@ $(document).ready(function () {
 	function beginActivity() {
 		$("#menubtn").append('<div><span style="font-size:30px;cursor:pointer">&#9776;</span></div>');
 		$("#closebtn").append('<div><a href="javascript:void(0)" class="closebtn">&times;</a></div>');
-		$(vocabbank).each(function(i , item) {			
+		$(vocabbank).each(function(i , item) {
 			$("#sideMenuArea" + i ).append('<div id="sideMenuList">' + item[0] + '</div>');
 			$("#sideMenuArea" + i ).on("click", function () {
 				$("#activityTitle").append('<div id="showImi">' + item[0] +'</div>')
