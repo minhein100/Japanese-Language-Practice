@@ -48,6 +48,7 @@
          <div id="sideMenuArea25"></div>
       </div>
       <div id="cardArea"></div>
+      <div id="buttonArea"></div>
    </div>
    <script>
       $(function () {
@@ -55,6 +56,12 @@
          function appndHtml(data) {
             $("#includeHtml").prepend(data);
          }
+      });
+   </script>
+   <script>
+      $(function () {
+         $("#buttonArea")
+         .append('<div id="otherButton"> <a href=\"830class_imi_lesson.html\" style="text-decoration:none;">他の練習を選ぶ</a></div>');
       });
    </script>
 </body>
