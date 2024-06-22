@@ -37,6 +37,7 @@ $(document).ready(function () {
 		$(vocabbank).each(function(i , item) {
 			$("#sideMenuArea" + i ).append('<div id="sideMenuList">' + item[0] + '</div>');
 			$("#sideMenuArea" + i ).on("click", function () {
+				$("#activityTitle").empty();
 				$("#activityTitle").append('<div id="showImi">' + item[0] +'</div>')
 				$("#cardArea").empty();
 				$("#cardArea").append('<div id="showImi">' + item[1] +'</br>' + item[2] + '</br>' + item[3] +'</div>')
