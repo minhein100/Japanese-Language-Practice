@@ -43,7 +43,7 @@ $(document).ready(function () {
 				$("#cardArea").append('<div id="showImi">' + item[1] +'</br>' + item[2] + '</br>' + item[3] +'</div>')
 				$("#sideMenuArea").animate({ width: "0px" }, 100);
 				$("#main").animate({ marginLeft: "0px" }, 100);
-				$("body").css("background-color", "white");
+				// $("body").css("background-color", "white");
 			});
 		});
 	}
@@ -52,13 +52,13 @@ $(document).ready(function () {
 	$("#menubtn").on("click", function () {
 		$("#sideMenuArea").animate({ width: "150px" }, 100);
 		$("#main").animate({ marginLeft: "150px" }, 100);
-		$("body").css("background-color", "rgba(0, 0, 0, 0.4)");
+		// $("body").css("background-color", "rgba(0, 0, 0, 0.4)");
 	});
 
 
 	$("#closebtn").on("click", function () {
 		$("#sideMenuArea").animate({ width: "0px" }, 100);
 		$("#main").animate({ marginLeft: "0px" }, 100);
-		$("body").css("background-color", "white");
+		// $("body").css("background-color", "white");
 	});	
 });
