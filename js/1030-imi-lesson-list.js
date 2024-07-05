@@ -3,8 +3,8 @@ $(document).ready(function () {
     // .append('<div id="lessonListButton6"><a href=\"./1030multi1.html\" style="text-decoration:none;">０１</a></div>');
     // $("#lessonListArea1")
     // .append('<div id="lessonListButton6"><a href=\"./1030multi2.html\" style="text-decoration:none;">０２</a></div>');
-    // $("#lessonListArea1")
-    // .append('<div id="lessonListButton6"><a href=\"./1030multi3.html\" style="text-decoration:none;">０３</a></div>');
+    $("#lessonListArea1")
+    .append('<div id="lessonListButton6"><a href=\"./1030imi3.html\" style="text-decoration:none;">０３</a></div>');
     // $("#lessonListArea1")
     // .append('<div id="lessonListButton"><a href=\"830class.html\" style="text-decoration:none;">０４</a></div>');
     // $("#lessonListArea1")
