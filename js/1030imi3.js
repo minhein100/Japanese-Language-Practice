@@ -32,9 +32,9 @@ $(document).ready(function () {
 
 
 	function beginActivity() {
-		$("#menubtn").append('<div><span style="font-size:30px;cursor:pointer">&#9776;</span></div>');
+		$("#menubtn").append('<div><span style="font-size:18px;cursor:pointer">語彙一覧</span></div>');
 		$("#closebtn").append('<div><a href="javascript:void(0)" class="closebtn">&times;</a></div>');
-		$("#infoMsg").append('<div><h4 style="text-align: center;">画面左の「&#9776;」から言葉の選択ができます。</h4></div>');
+		$("#infoMsg").append('<div><h4 style="text-align: center;">画面左の「語彙一覧」から言葉の選択ができます。</h4></div>');
 		$(vocabbank).each(function(i , item) {
 			$("#sideMenuArea" + i ).append('<div id="sideMenuList">' + item[0] + '</div>');
 			$("#sideMenuArea" + i ).on("click", function () {
