@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 		// Insert button to choose befre and next vocab.
 		$("#buttonArea1").append('<div id="beforeButton"><< 前</div>');
-		$("#buttonArea2").append('<div id="startButton">スタート</div>');
+		// $("#buttonArea2").append('<div id="startButton">スタート</div>');
 		$("#buttonArea3").append('<div id="nextButton2">次 >></div>');
 
 		// Function for before button
