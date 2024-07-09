@@ -60,7 +60,7 @@ $(document).ready(function () {
 		// Function for before button
 		$("#beforeButton").on("click", function () {
 			if (currentVocab == 0) {
-				// alert("これは最初の語彙です。");
+				alert("これは最初の語彙です。");
 			}
 			else {
 				if (currentVocab >= 1) {
@@ -75,7 +75,7 @@ $(document).ready(function () {
 		// Fucntion for next button
 		$("#nextButton2").on("click", function () {
 			if (currentVocab >= vocabbank.length) {
-				// alert("これは最初の語彙です。");
+				alert("これは最後の語彙です。");
 			}
 			else {
 				if (currentVocab < vocabbank.length - 1 && currentVocab >= 0) {
@@ -89,17 +89,6 @@ $(document).ready(function () {
 			$("#buttonArea2").empty();
 			});
 		}
-
-		// Start Lesson
-		$("#startButton").on("click", function () {
-			$("#infoMsg").empty();
-			$("#activityTitle").empty();
-			$("#activityTitle").append('<div id="showImi">' +  "(1). " + vocabbank[0][0] +'</div>');
-			$("#cardArea").empty();
-			$("#cardArea").append('<div id="showImi">' + vocabbank[0][1] +'</br>' + vocabbank[0][2] + '</br>' + vocabbank[0][3] +'</div>');
-			$("#buttonArea2").empty();
-		});
-
 
 	$("#menubtn").on("click", function () {
 		$("#sideMenuArea").animate({ width: "150px" }, 100);
