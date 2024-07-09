@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 		// Fucntion for next button
 		$("#nextButton2").on("click", function () {
-			if (currentVocab == vocabbank.length) {
+			if (currentVocab == vocabbank.length - 1) {
 				alert("これは最後の語彙です。");
 			}
 			else {
