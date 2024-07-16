@@ -73,7 +73,7 @@ $(document).ready(function () {
 		$("#buttonArea").empty();
 		$("#cardArea").empty();
 		$("#cardArea").append('<div id="finalMessage"><p>終了！<br>よく頑張ったね！</p></div>');
-		$("#buttonArea").append('<div id="otherButton"> <a href=\"./0830yomi3.html\" style="text-decoration:none;">最初からやり直す</a></div>');
+		$("#buttonArea").append('<div id="otherButton"> <a href=\"./0830yomi4.html\" style="text-decoration:none;">最初からやり直す</a></div>');
 		$("#buttonArea").append('<div id="otherButton"> <a href=\"./830class_yomikata_lesson.html\" style="text-decoration:none;">他の練習を選ぶ</a></div>');
 	}//final message
 
