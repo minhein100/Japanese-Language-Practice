@@ -13,10 +13,18 @@
    <script src="./js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-   
    <div id="includeHtml"></div>
    <div id="repousse2">
-      <h4>4つの選択肢の中から一番適切なものを選んでください。</h4>
+      <h4>下のボタンでテストの形を選んでください。</h4>
+      <div class="withAnswer">
+         <input type="radio" id="withAnswer" onclick="beginTestWith()">　Confirm ANSWER</br></br>
+         <input type="radio" id="withoutAnswer" onclick="beginTestWithout()">　Don't confirm ANSWER
+      </div>
+      <form>
+         <center>
+            <input type="text" name="flowMsg" size=45>
+         </center>
+      </form>
    <div id="multiChoiceArea">
       <div id="question"></div>
       <div id="options"></div>
