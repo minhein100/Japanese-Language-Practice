@@ -28,10 +28,22 @@
    <div id="multiChoiceArea">
       <div id="question"></div>
       <div id="options"></div>
-      <!-- <button id="submit">Submit</butont> -->
-    </div>
-    <script src="js/0830multi3.js"></script>
-    <div id="buttonArea"></div>
+   </div>
+   <script src="js/0830multi3.js"></script>
+   <div id="multiCenterArea">
+      <div id="showResultArea">
+         <form>
+            <center>
+               <input type="text" id="showResult" style="font-size:20px;" size=20>
+            </center>
+         </form>
+      </div>
+   </div>
+   <div id="multiButtonArea2">
+      <div id="buttonArea1"></div>
+      <div id="buttonArea2"></div>
+      <div id="buttonArea3"></div>
+   </div>
    </div>
 </div>
    <script>
@@ -41,15 +53,14 @@
             $("#includeHtml").prepend(data);
          }
       });
-   </script>   
+   </script>
    <script>
       $(function displayFinalMessage() {
-         $("#buttonArea")
+         $("#buttonArea1")
          .append('<div id="otherButton"> <a href=\"0830multi3.html\" style="text-decoration:none;">最初からやり直す</a></div>');
-         $("#buttonArea")
+         $("#buttonArea3")
          .append('<div id="otherButton"> <a href=\"830class_multi_lesson.html\" style="text-decoration:none;">他の練習を選ぶ</a></div>');
       });
    </script>
 </body>
-
 </html>
