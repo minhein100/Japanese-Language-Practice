@@ -51,7 +51,7 @@ button{
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
-  background-color: #90e6d2;
+  background-color: #88B6e0;
   color: black;
   border: none;
   border-radius: 5px;
@@ -59,7 +59,7 @@ button{
 }
 
 button:hover {
-  background-color: #82dcac;
+  background-color: #d1e3f3;
 }
 
 #choiceButton{
