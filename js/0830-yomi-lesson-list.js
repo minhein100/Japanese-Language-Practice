@@ -7,10 +7,10 @@ $(document).ready(function () {
     .append('<div id="lessonListButton"><a href=\"./0830yomi3.html\" style="text-decoration:none;">０３</a></div>');
     $("#lessonListArea1")
     .append('<div id="lessonListButton"><a href=\"./0830yomi4.html\" style="text-decoration:none;">０４</a></div>');
-    // $("#lessonListArea1")
-    // .append('<div id="lessonListButton"><a href=\"830class.html\" style="text-decoration:none;">０５</a></div>');
-    // $("#lessonListArea1")
-    // .append('<div id="lessonListButton"><a href=\"830class.html\" style="text-decoration:none;">０６</a></div>');
+    $("#lessonListArea1")
+    .append('<div id="lessonListButton"><a href=\"./0830yomi5.html\" style="text-decoration:none;">０５</a></div>');
+    $("#lessonListArea1")
+    .append('<div id="lessonListButton"><a href=\"./0830yomi6.html\" style="text-decoration:none;">０６</a></div>');
     // $("#lessonListArea1")
     // .append('<div id="lessonListButton"><a href=\"830class.html\" style="text-decoration:none;">０７</a></div>');
     // $("#lessonListArea1")
